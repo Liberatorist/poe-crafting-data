@@ -1,0 +1,675 @@
+[
+  {
+    "name": "Body Armour",
+    "tags": ["body_armour", "armour"],
+    "domain": "item",
+    "canHaveInfluence": true,
+    "children": [
+      {
+        "name": "STR",
+        "tags": ["str_armour"]
+      },
+      {
+        "name": "DEX",
+        "tags": ["dex_armour"]
+      },
+      {
+        "name": "INT",
+        "tags": ["int_armour"]
+      },
+      {
+        "name": "STR/DEX",
+        "tags": ["str_dex_armour"]
+      },
+      {
+        "name": "STR/INT",
+        "tags": ["str_int_armour"]
+      },
+      {
+        "name": "DEX/INT",
+        "tags": ["dex_int_armour"]
+      },
+      {
+        "name": "STR/DEX/INT",
+        "tags": ["str_dex_int_armour"]
+      }
+    ]
+  },
+  {
+    "name": "Boots",
+    "tags": ["boots", "armour"],
+    "domain": "item",
+    "canHaveInfluence": true,
+    "children": [
+      {
+        "name": "STR",
+        "tags": ["str_armour"]
+      },
+      {
+        "name": "DEX",
+        "tags": ["dex_armour"]
+      },
+      {
+        "name": "INT",
+        "tags": ["int_armour"]
+      },
+      {
+        "name": "STR/DEX",
+        "tags": ["str_dex_armour"]
+      },
+      {
+        "name": "STR/INT",
+        "tags": ["str_int_armour"]
+      },
+      {
+        "name": "DEX/INT",
+        "tags": ["dex_int_armour"]
+      },
+      {
+        "name": "WARD",
+        "tags": ["ward"]
+      }
+    ]
+  },
+  {
+    "name": "Cluster Jewel",
+    "domain": "affliction_jewel",
+    "tags": [],
+    "children": [
+      {
+        "name": "Large Cluster Jewel",
+        "tags": [],
+        "children": [
+          {
+            "name": "Axe and Sword Damage",
+            "tags": ["affliction_axe_and_sword_damage"]
+          },
+          {
+            "name": "Mace and Staff Damage",
+            "tags": ["affliction_mace_and_staff_damage"]
+          },
+          {
+            "name": "Dagger and Claw Damage",
+            "tags": ["affliction_dagger_and_claw_damage"]
+          },
+          {
+            "name": "Bow Damage",
+            "tags": ["affliction_bow_damage"]
+          },
+          {
+            "name": "Wand Damage",
+            "tags": ["affliction_wand_damage"]
+          },
+          {
+            "name": "Damage with Two Handed Weapons",
+            "tags": ["affliction_damage_with_two_handed_melee_weapons"]
+          },
+          {
+            "name": "Attack Damage while Dual Wielding",
+            "tags": ["affliction_attack_damage_while_dual_wielding_"]
+          },
+          {
+            "name": "Attack Damage while holding a Shield",
+            "tags": ["affliction_attack_damage_while_holding_a_shield"]
+          },
+          {
+            "name": "Attack Damage",
+            "tags": ["affliction_attack_damage_"]
+          },
+          {
+            "name": "Spell Damage",
+            "tags": ["affliction_spell_damage"]
+          },
+          {
+            "name": "Elemental Damage",
+            "tags": ["affliction_elemental_damage"]
+          },
+          {
+            "name": "Physical Damage",
+            "tags": ["affliction_physical_damage"]
+          },
+          {
+            "name": "Fire Damage",
+            "tags": ["affliction_fire_damage"]
+          },
+          {
+            "name": "Lightning Damage",
+            "tags": ["affliction_lightning_damage"]
+          },
+          {
+            "name": "Cold Damage",
+            "tags": ["affliction_cold_damage"]
+          },
+          {
+            "name": "Chaos Damage",
+            "tags": ["affliction_chaos_damage"]
+          },
+          {
+            "name": "Minion Damage",
+            "tags": ["affliction_minion_damage"]
+          }
+        ]
+      },
+      {
+        "name": "Medium Cluster Jewel",
+        "tags": [],
+        "children": [
+          {
+            "name": "Fire Damage over Time",
+            "tags": ["affliction_fire_damage_over_time_multiplier"]
+          },
+          {
+            "name": "Chaos Damage over Time",
+            "tags": ["affliction_chaos_damage_over_time_multiplier"]
+          },
+          {
+            "name": "Physical Damage over Time",
+            "tags": ["affliction_physical_damage_over_time_multiplier"]
+          },
+          {
+            "name": "Cold Damage over Time",
+            "tags": ["affliction_cold_damage_over_time_multiplier"]
+          },
+          {
+            "name": "Damage over Time",
+            "tags": ["affliction_damage_over_time_multiplier"]
+          },
+          {
+            "name": "Effect of Non-Damaging Ailments",
+            "tags": ["affliction_effect_of_non-damaging_ailments"]
+          },
+          {
+            "name": "Damage while you have a Herald",
+            "tags": ["affliction_damage_while_you_have_a_herald"]
+          },
+          {
+            "name": "Minion Damage while you have a Herald",
+            "tags": ["affliction_minion_damage_while_you_have_a_herald"]
+          },
+          {
+            "name": "Exerted Attack Damage",
+            "tags": ["affliction_warcry_buff_effect"]
+          },
+          {
+            "name": "Critical Chance",
+            "tags": ["affliction_critical_chance"]
+          },
+          {
+            "name": "Minion Life",
+            "tags": ["affliction_minion_life"]
+          },
+          {
+            "name": "Area Damage",
+            "tags": ["affliction_area_damage"]
+          },
+          {
+            "name": "Projectile Damage",
+            "tags": ["affliction_projectile_damage"]
+          },
+          {
+            "name": "Trap and Mine Damage",
+            "tags": ["affliction_trap_and_mine_damage"]
+          },
+          {
+            "name": "Totem Damage",
+            "tags": ["affliction_totem_damage"]
+          },
+          {
+            "name": "Brand Damage",
+            "tags": ["affliction_brand_damage"]
+          },
+          {
+            "name": "Channelling Skill Damage",
+            "tags": ["affliction_channelling_skill_damage"]
+          },
+          {
+            "name": "Flask Duration",
+            "tags": ["affliction_flask_duration"]
+          },
+          {
+            "name": "Life and Mana recovery from Flasks",
+            "tags": ["affliction_life_and_mana_recovery_from_flasks"]
+          }
+        ]
+      },
+      {
+        "name": "Small Cluster Jewel",
+        "tags": [],
+        "children": [
+          {
+            "name": "Life",
+            "tags": ["affliction_maximum_life"]
+          },
+          {
+            "name": "Energy Shield",
+            "tags": ["affliction_maximum_energy_shield"]
+          },
+          {
+            "name": "Mana",
+            "tags": ["affliction_maximum_mana"]
+          },
+          {
+            "name": "Armour",
+            "tags": ["affliction_armour"]
+          },
+          {
+            "name": "Evasion",
+            "tags": ["affliction_evasion"]
+          },
+          {
+            "name": "Chance to Block Attack Damage",
+            "tags": ["affliction_chance_to_block_attack_damage"]
+          },
+          {
+            "name": "Chance to Block Spell Damage",
+            "tags": ["affliction_chance_to_block_spell_damage"]
+          },
+          {
+            "name": "Fire Resistance",
+            "tags": ["affliction_fire_resistance"]
+          },
+          {
+            "name": "Cold Resistance",
+            "tags": ["affliction_cold_resistance"]
+          },
+          {
+            "name": "Lightning Resistance",
+            "tags": ["affliction_lightning_resistance"]
+          },
+          {
+            "name": "Chaos Resistance",
+            "tags": ["affliction_chaos_resistance"]
+          },
+          {
+            "name": "Chance to Suppress Spell Damage",
+            "tags": ["affliction_chance_to_dodge_attacks"]
+          },
+          {
+            "name": "Reservation Efficiency",
+            "tags": ["affliction_reservation_efficiency_small"]
+          },
+          {
+            "name": "Curse Effect",
+            "tags": ["affliction_curse_effect_small"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Flask",
+    "domain": "flask",
+    "tags": [],
+    "children": [
+      {
+        "name": "Life Flask",
+        "tags": ["life_flask"]
+      },
+      {
+        "name": "Mana Flask",
+        "tags": ["mana_flask"]
+      },
+      {
+        "name": "Hybrid Flask",
+        "tags": ["hybrid_flask"]
+      },
+      {
+        "name": "Utility Flask",
+        "tags": ["utility_flask"]
+      }
+    ]
+  },
+  {
+    "name": "Gloves",
+    "domain": "item",
+    "tags": ["gloves", "armour"],
+    "canHaveInfluence": true,
+    "children": [
+      {
+        "name": "STR",
+        "tags": ["str_armour"]
+      },
+      {
+        "name": "DEX",
+        "tags": ["dex_armour"]
+      },
+      {
+        "name": "INT",
+        "tags": ["int_armour"]
+      },
+      {
+        "name": "STR/DEX",
+        "tags": ["str_dex_armour"]
+      },
+      {
+        "name": "STR/INT",
+        "tags": ["str_int_armour"]
+      },
+      {
+        "name": "DEX/INT",
+        "tags": ["dex_int_armour"]
+      },
+      {
+        "name": "WARD",
+        "tags": ["ward"]
+      }
+    ]
+  },
+  {
+    "name": "Heist",
+    "domain": "heist_npc",
+    "tags": [],
+    "children": [
+      {
+        "name": "Cloak",
+        "tags": ["heist_equipment_utility"]
+      },
+      {
+        "name": "Tool",
+        "tags": ["heist_equipment_tool"],
+        "children": [
+          {
+            "name": "Agility",
+            "tags": ["heist_equipment_agility"]
+          },
+          {
+            "name": "Counter-Thaumaturgy",
+            "tags": ["heist_equipment_counterthaumaturge"]
+          },
+          {
+            "name": "Deception",
+            "tags": ["heist_equipment_deception"]
+          },
+          {
+            "name": "Demolition",
+            "tags": ["heist_equipment_demolition"]
+          },
+          {
+            "name": "Engineering",
+            "tags": ["heist_equipment_engineering"]
+          },
+          {
+            "name": "Lockpicking",
+            "tags": ["heist_equipment_lockpicking"]
+          },
+          {
+            "name": "Perception",
+            "tags": ["heist_equipment_perception"]
+          },
+          {
+            "name": "Trap Disarmament",
+            "tags": ["heist_equipment_trapdisarmament"]
+          }
+        ]
+      },
+      {
+        "name": "Weapon",
+        "tags": ["heist_equipment_weapon"],
+        "children": [
+          {
+            "name": "Melee",
+            "tags": ["heist_equipment_melee"]
+          },
+          {
+            "name": "Ranged",
+            "tags": ["heist_equipment_ranged"]
+          },
+          {
+            "name": "Caster",
+            "tags": ["heist_equipment_caster"]
+          }
+        ]
+      },
+      {
+        "name": "Brooch",
+        "tags": ["heist_equipment_reward"]
+      }
+    ]
+  },
+  {
+    "name": "Helmet",
+    "domain": "item",
+    "tags": ["helmet", "armour"],
+    "canHaveInfluence": true,
+    "children": [
+      {
+        "name": "STR",
+        "tags": ["str_armour"]
+      },
+      {
+        "name": "DEX",
+        "tags": ["dex_armour"]
+      },
+      {
+        "name": "INT",
+        "tags": ["int_armour"]
+      },
+      {
+        "name": "STR/DEX",
+        "tags": ["str_dex_armour"]
+      },
+      {
+        "name": "STR/INT",
+        "tags": ["str_int_armour"]
+      },
+      {
+        "name": "DEX/INT",
+        "tags": ["dex_int_armour"]
+      },
+      {
+        "name": "WARD",
+        "tags": ["ward"]
+      }
+    ]
+  },
+  {
+    "name": "Jewellery",
+    "domain": "item",
+    "tags": [],
+    "children": [
+      {
+        "name": "Amulet",
+        "tags": ["amulet"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "Ring",
+        "tags": ["ring"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "Bone Ring",
+        "tags": ["ring", "ring_can_roll_minion_modifiers"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "Unset Ring",
+        "tags": ["ring", "unset_ring"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "Belt",
+        "tags": ["belt"],
+        "canHaveInfluence": true
+      }
+    ]
+  },
+  {
+    "name": "Basic Jewel",
+    "domain": "misc",
+    "tags": ["jewel"],
+    "children": [
+      {
+        "name": "Viridian Jewel",
+        "tags": ["not_str", "not_int"]
+      },
+      {
+        "name": "Cobalt Jewel",
+        "tags": ["not_str", "not_dex"]
+      },
+      {
+        "name": "Crimson Jewel",
+        "tags": ["not_int", "not_dex"]
+      },
+      {
+        "name": "Prismatic Jewel",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "name": "Abyss Jewel",
+    "domain": "abyss_jewel",
+    "tags": [],
+    "children": [
+      {
+        "name": "Murderous Eye Jewel",
+        "tags": ["abyss_jewel_melee"]
+      },
+      {
+        "name": "Ghastly Eye Jewel",
+        "tags": ["abyss_jewel_summoner"]
+      },
+      {
+        "name": "Hypnotic Eye Jewel",
+        "tags": ["abyss_jewel_caster"]
+      },
+      {
+        "name": "Searching Eye Jewel",
+        "tags": ["abyss_jewel_ranged"]
+      }
+    ]
+  },
+  {
+    "name": "Shield",
+    "domain": "item",
+    "tags": ["shield", "armour"],
+    "canHaveInfluence": true,
+    "children": [
+      {
+        "name": "STR",
+        "tags": ["str_armour"]
+      },
+      {
+        "name": "DEX",
+        "tags": ["dex_armour"]
+      },
+      {
+        "name": "INT",
+        "tags": ["int_armour"]
+      },
+      {
+        "name": "STR/DEX",
+        "tags": ["str_dex_armour"]
+      },
+      {
+        "name": "STR/INT",
+        "tags": ["str_int_armour"]
+      },
+      {
+        "name": "DEX/INT",
+        "tags": ["dex_int_armour"]
+      }
+    ]
+  },
+  {
+    "name": "Quiver",
+    "domain": "item",
+    "tags": ["quiver"],
+    "canHaveInfluence": true
+  },
+  {
+    "name": "One Handed Weapon",
+    "domain": "item",
+    "tags": ["one_hand_weapon", "weapon"],
+    "children": [
+      {
+        "name": "Claw",
+        "tags": ["claw"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "Convoking Wand",
+        "tags": ["weapon_can_roll_minion_modifiers"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "Dagger",
+        "tags": ["dagger"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "One Hand Axe",
+        "tags": ["axe"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "One Hand Mace",
+        "tags": ["mace"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "One Hand Sword",
+        "tags": ["sword"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "Rune Dagger",
+        "tags": ["rune_dagger"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "Sceptre",
+        "tags": ["sceptre"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "Thrusting One Hand Sword",
+        "tags": ["rapier"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "Wand",
+        "tags": ["wand"],
+        "canHaveInfluence": true
+      }
+    ]
+  },
+  {
+    "name": "Two Handed Weapon",
+    "domain": "item",
+    "tags": ["weapon", "two_hand_weapon"],
+    "children": [
+      {
+        "name": "Bow",
+        "tags": ["bow"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "Staff",
+        "tags": ["staff"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "Two Hand Axe",
+        "tags": ["axe"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "Two Hand Mace",
+        "tags": ["mace"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "Two Hand Sword",
+        "tags": ["sword"],
+        "canHaveInfluence": true
+      },
+      {
+        "name": "Warstaff",
+        "tags": ["warstaff"],
+        "canHaveInfluence": true
+      }
+    ]
+  }
+]
