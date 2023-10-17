@@ -129,6 +129,8 @@ def apply_index_handlers(stats, index_handlers):
                 stat_values.append((stat["min"] / 1000, stat["max"] / 1000))
             case "negate_and_double":
                 stat_values.append((-stat["min"] * 2, -stat["max"] * 2))
+            case "locations_to_metres":
+                stat_values.append((round(stat["min"]/10, 1), round(stat["max"]/10, 1)))
             case _:
                 stat_values.append((stat["min"], stat["max"]))
 
@@ -182,9 +184,9 @@ def add_tiers(mods: dict):
                 continue
             mod_number = re.search(r"\d+", mod_name)
             if mod_number is None:
-                mod["tier"] = 1
-                continue
-            mod["temp_number"] = int(mod_number.group()[0])
+                mod["temp_number"] = 1
+            else:
+                mod["temp_number"] = int(mod_number.group()[0])
             if mod["type"] not in tier_groups:
                 tier_groups[mod["type"]] = []
             tier_groups[mod["type"]].append(mod["temp_number"])
